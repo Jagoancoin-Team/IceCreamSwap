@@ -20,7 +20,7 @@ export const dny: IceChain = {
   contracts: {
     multicall3: {
       address: '0x95220b8a30c7235D31Ef8f9178AE897D332C06BE',
-      blockCreated: 1138229,
+      blockCreated: 3482034,
     },
   },
   blockInterval: 3,
