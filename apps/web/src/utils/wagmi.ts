@@ -54,7 +54,7 @@ export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
     appName: 'DynastySwap',
-    appLogoUrl: 'https://dynastyswap.com/favicon.ico',
+    appLogoUrl: 'https://dynastycoin.io/assets/img/logo/logo.png',
   },
 })
 

@@ -7,7 +7,7 @@ import { dokenchain } from './dokenchain'
 import { fuse } from './fuse'
 import { xdc } from './xdc'
 import { xodex } from "./xodex";
-import { dny } from "./dny";
+import { dynastymainnet } from "./dynasty"
 import { shardeumTestnet } from "./shardeumTestnet";
 import { telos } from "./telos";
 import { shimmerTestnet } from "./shimmerTestnet";
@@ -24,6 +24,7 @@ import { lightlink } from "./lightlink"
 import { stratovmTestnet } from "./stratovmTestnet"
 
 export const chainMap = {
+  dynastymainnet,
   core,
   bsc,
   bob,
@@ -43,7 +44,6 @@ export const chainMap = {
   dogechain,
   fuse,
   xodex,
-  dny,
   dokenchain,
   shardeumTestnet,
   // shimmerTestnet,
@@ -56,6 +56,7 @@ export const getChain = (chainId: number) => {
 }
 
 export enum ChainId {
+  DYNASTY = dynastymainnet.id,
   CORE = core.id,
   BLAST = blast.id,
   NEON = neon.id,
@@ -69,7 +70,6 @@ export enum ChainId {
   DOGE = dogechain.id,
   FUSE = fuse.id,
   XODEX = xodex.id,
-  DNY = dny.id,
   DOKEN = dokenchain.id,
   SHARDEUM_TEST = shardeumTestnet.id,
   SHIMMER_TEST = shimmerTestnet.id,
