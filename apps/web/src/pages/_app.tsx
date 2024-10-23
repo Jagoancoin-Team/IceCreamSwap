@@ -83,7 +83,7 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
         />
         <meta
           name="description"
-          content="DEX, DEX Aggregator, RPC, Block Explorer, KYC, Launchpad and Bridge on Base, Core DAO, Telos, Bitgert, XDC, Shardeum, Shimmer, BSC, Xodex, Dogechain and Fuse."
+          content="DEX, DEX Aggregator, RPC, Block Explorer, KYC, Launchpad and Bridge on Dny, Base, Core DAO, Telos, Bitgert, XDC, Shardeum, Shimmer, BSC, Xodex, Dogechain and Fuse."
         />
         <meta name="theme-color" content="#F8567F" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -91,7 +91,7 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
         <meta name="twitter:title" content="DynastySwap - Multi-chain DeFi ecosystem" />
         <meta
           name="twitter:description"
-          content="DEX, DEX Aggregator, RPC, Block Explorer, KYC, Launchpad and Bridge on Base, Core DAO, Telos, Bitgert, XDC, Shardeum, Shimmer, BSC, Xodex, Dogechain and Fuse."
+          content="DEX, DEX Aggregator, RPC, Block Explorer, KYC, Launchpad and Bridge on Dny, Base, Core DAO, Telos, Bitgert, XDC, Shardeum, Shimmer, BSC, Xodex, Dogechain and Fuse."
         />
         <title>DynastySwap</title>
       </Head>
