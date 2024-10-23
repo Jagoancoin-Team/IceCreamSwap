@@ -109,7 +109,7 @@ export const tokenRouter = router({
     const tokensSorted = kycedTokens.concat(nonKycedTokens)
 
     return {
-      name: 'IceCreamSwap Default',
+      name: 'DynastySwap Default',
       timestamp: new Date().toISOString(),
       version: {
         major: 1,
@@ -117,8 +117,8 @@ export const tokenRouter = router({
         patch: 0,
       },
       tags: {},
-      logoURI: 'https://icecreamswap.com/logo.png',
-      keywords: ['icecreamswap', 'default'],
+      logoURI: 'https://dynastyswap.com/logo.png',
+      keywords: ['dynastyswap', 'default'],
       tokens: tokensSorted.map((token) => ({
         name: token.name,
         symbol: token.symbol,

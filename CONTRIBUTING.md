@@ -1,4 +1,4 @@
-# Contributing to the IceCreamSwap ecosystem 🥞
+# Contributing to the DynastySwap ecosystem 🥞
 
 Thanks for taking the time to contribute !
 

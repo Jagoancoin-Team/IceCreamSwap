@@ -105,16 +105,16 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading as="h1" scale="xxl" color="secondary" mb="24px">
-            {t('IceCreamSwap goes Core!')}
+            {t('DynastySwap goes Dny!')}
           </Heading>
           <Heading scale="md" mb="24px" as="p" lineHeight="120%">
-            IceCreamSwap will be supporting the{' '}
+            DynastySwap will be supporting the{' '}
             <Link display="inline-flex" href="https://coredao.org/">
-              Core Chain
+              Dny Chain
             </Link>{' '}
-            from the start on. IceCreamSwap offers a seamless trading experience for digital assets on Core with our
-            swap. The core chain also will support our bridge, allowing users to easily and quickly transfer between
-            different chains - <i>the fastest way to get you startet on Core</i>.
+            from the start on. DynastySwap offers a seamless trading experience for digital assets on Core with our
+            swap. The dny chain also will support our bridge, allowing users to easily and quickly transfer between
+            different chains - <i>the fastest way to get you startet on Dny</i>.
           </Heading>
           <Flex style={{ gap: '8px' }} flexDirection={['column', null, null, 'row']} alignItems="stretch">
             {!account && <ConnectWalletButton />}

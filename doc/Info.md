@@ -1,6 +1,6 @@
 # Documentation: Info
 
-A brief overview how Info part of IceCreamSwap website works.
+A brief overview how Info part of DynastySwap website works.
 
 ## Code structure
 

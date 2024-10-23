@@ -23,7 +23,7 @@ export const swapSectionData = (t: TranslateFunction): any => ({
   headingText: t('HUGE CORE APY!'),
   bodyText: (
     <>
-      IceCreamSwap will provide <i>huge farm rewards</i> for CORE/USDT and ICE/USDT liqudity provider
+      DynastySwap will provide <i>huge farm rewards</i> for CORE/USDT and ICE/USDT liqudity provider
     </>
   ),
   reverse: false,
@@ -33,7 +33,7 @@ export const swapSectionData = (t: TranslateFunction): any => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://wiki.icecreamswap.com/dex/liquidity',
+    to: 'https://wiki.dynastyswap.com/dex/liquidity',
     text: t('Learn'),
     external: true,
   },

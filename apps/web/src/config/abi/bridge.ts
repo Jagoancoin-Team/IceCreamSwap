@@ -116,7 +116,7 @@ export const bridgeABI = [
       },
       {
         indexed: false,
-        internalType: 'enum IceCreamSwapBridge.ProposalStatus',
+        internalType: 'enum DynastySwapBridge.ProposalStatus',
         name: 'status',
         type: 'uint8'
       },
@@ -147,7 +147,7 @@ export const bridgeABI = [
       },
       {
         indexed: false,
-        internalType: 'enum IceCreamSwapBridge.ProposalStatus',
+        internalType: 'enum DynastySwapBridge.ProposalStatus',
         name: 'status',
         type: 'uint8'
       },
@@ -742,7 +742,7 @@ export const bridgeABI = [
       {
         components: [
           {
-            internalType: 'enum IceCreamSwapBridge.ProposalStatus',
+            internalType: 'enum DynastySwapBridge.ProposalStatus',
             name: '_status',
             type: 'uint8'
           },
@@ -762,7 +762,7 @@ export const bridgeABI = [
             type: 'uint40'
           }
         ],
-        internalType: 'struct IceCreamSwapBridge.Proposal',
+        internalType: 'struct DynastySwapBridge.Proposal',
         name: '',
         type: 'tuple'
       }
